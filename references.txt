@@ -1,0 +1,11 @@
+https://community.cloudera.com/t5/Support-Questions/usr-lib-hadoop-mapreduce-hadoop-streamingxxxx-jar-not-found/m-p/164080
+https://cloud.google.com/dataproc/docs/reference/libraries
+https://github.com/googleapis/google-api-java-client-services/commits/main/clients/google-api-services-dataproc
+https://stackoverflow.com/questions/33134196/not-a-valid-jar-when-running-wordcount-on-the-hadoop-examples-jar-file
+https://cloud.google.com/python/docs/reference/storage/latest/index.html
+https://cloud.google.com/dataproc/docs/tutorials/python-configuration
+https://stackoverflow.com/questions/50840511/google-cloud-import-storage-cannot-import-storage
+https://mrjob.readthedocs.io/en/latest/guides/dataproc-quickstart.html
+https://cloud.google.com/sdk/docs/install#interactive
+https://github.com/Yelp/mrjob
+https://www.geeksforgeeks.org/hadoop-mrjob-python-library-for-mapreduce-with-example/

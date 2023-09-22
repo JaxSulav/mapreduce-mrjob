@@ -5,6 +5,7 @@ from mrjob.step import MRStep
 
 
 class MRTopOrders(MRJob):
+    """Find the top 3 orders with products from most number of aisles"""
     def configure_args(self):
         super(MRTopOrders, self).configure_args()
         self.add_passthru_arg(
@@ -31,7 +32,7 @@ class MRTopOrders(MRJob):
         ]
 
 class MRTopUsers(MRJob):
-
+    """Find the top 3 users who have bought products from the most number of aisles in their first 10 items in the cart"""
     def mapper(self, _, line):
         _, user_id, add_to_cart_order, aisle_id = line.split(',')
         if int(''.join(re.findall(r'\d+', add_to_cart_order))) <= 10: # to deal with int conversion error due to data like this '"3"'
